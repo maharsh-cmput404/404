@@ -5,8 +5,8 @@
 5) 301 - http://www.google.com must be visited to get a 200
 6) 200 and 418 for the moved URL whereas curl -i gives a 301. For www.google.com/teapot it gives a code of 418
    and has no message for permanently moved.
-7) It complains about no form values if the parameters aren't passed in properly. When they are, the error goes away.
-8) https://github.com/maharshmellow/404/blob/master/labs/1/script.py
+7) It complains about no form values if the parameters aren't passed in properly. When they are, the error goes away. This method is useful for passing parameters in the request.
+8) https://raw.githubusercontent.com/maharshmellow/404/master/labs/1/script.py
 
 
 
